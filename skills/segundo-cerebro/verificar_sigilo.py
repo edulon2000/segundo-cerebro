@@ -86,6 +86,9 @@ def mascarar(texto: str) -> str:
 
 
 def main() -> int:
+    # Console do Windows (cp1252) não imprime "→"; sem isto o script quebra justamente ao mascarar.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     args = argparse.ArgumentParser()
     args.add_argument("arquivos", nargs="+", type=Path)
     args.add_argument("--mascarar", action="store_true")
