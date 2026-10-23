@@ -1,0 +1,14 @@
+{
+  "name": "segundo-cerebro",
+  "owner": {
+    "name": "Eduardo",
+    "url": "https://github.com/edulon2000"
+  },
+  "plugins": [
+    {
+      "name": "segundo-cerebro",
+      "source": "./",
+      "description": "Skill, agente, hook de bloqueio e cofre-modelo do segundo cérebro de trabalho no Obsidian."
+    }
+  ]
+}

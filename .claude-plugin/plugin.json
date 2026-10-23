@@ -1,0 +1,11 @@
+{
+  "name": "segundo-cerebro",
+  "version": "0.1.0",
+  "description": "Segundo cérebro de trabalho no Obsidian: captura lições (tentativas e erros), decisões e conhecimento a partir das conversas com o Claude, com bloqueio de pastas sensíveis e verificação de dados sob sigilo fiscal.",
+  "author": {
+    "name": "Eduardo",
+    "url": "https://github.com/edulon2000"
+  },
+  "repository": "https://github.com/edulon2000/segundo-cerebro",
+  "keywords": ["obsidian", "segundo-cerebro", "pkm", "licoes-aprendidas", "sigilo"]
+}

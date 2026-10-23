@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./10-Demandas/**)",
+      "Read(./21-Componentes/**)",
+      "Read(./_sistema/dados/**)",
+      "Read(/10-Demandas/**)",
+      "Read(/21-Componentes/**)",
+      "Read(/_sistema/dados/**)",
+      "Edit(./10-Demandas/**)",
+      "Edit(./21-Componentes/**)",
+      "Edit(./_sistema/dados/**)",
+      "Edit(/10-Demandas/**)",
+      "Edit(/21-Componentes/**)",
+      "Edit(/_sistema/dados/**)"
+    ]
+  }
+}
